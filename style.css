@@ -39,3 +39,27 @@ p {
   border-radius: 10px;
   background-image: linear-gradient(to right, tomato, orange);
 }
+
+/* Experience section style start */
+
+.experience {
+  font-size: 3rem;
+}
+.experience-section {
+  display: flex;
+  justify-content: space-around;
+}
+.left-side-experience {
+  width: 600px;
+  box-shadow: 10px 10px 40px gray;
+  padding: 10px;
+  border-left: 5px solid gray;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+  margin-bottom: 30px;
+}
+/* Experience section style end */
+
+.footer {
+  text-align: center;
+}
